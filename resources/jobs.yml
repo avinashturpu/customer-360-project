@@ -11,4 +11,4 @@ resources:
         - task_key: bronze_task
 
           notebook_task:
-            notebook_path: ./src/bronze.py
+            notebook_path: ../src/bronze.py
