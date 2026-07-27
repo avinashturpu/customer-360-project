@@ -1,14 +1,14 @@
 resources:
-
   jobs:
-
     customer_job:
-
       name: Customer Job
-
       tasks:
-
         - task_key: bronze_task
-
+          environment_key: default_env
           spark_python_task:
             python_file: ../src/bronze.py
+      environments:
+        - environment_key: default_env
+          spec:
+            client: "1"
+            dependencies: []
