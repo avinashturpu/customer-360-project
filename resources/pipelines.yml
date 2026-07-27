@@ -14,5 +14,5 @@ resources:
 
       libraries:
 
-        - notebook:
-            path: ./src/bronze.py
+        - file:
+            path: ../src/bronze.py
