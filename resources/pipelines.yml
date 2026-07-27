@@ -1,0 +1,18 @@
+resources:
+
+  pipelines:
+
+    customer_pipeline:
+
+      name: Customer Pipeline
+
+      catalog: main
+
+      schema: customer
+
+      continuous: false
+
+      libraries:
+
+        - notebook:
+            path: ./src/bronze.py
