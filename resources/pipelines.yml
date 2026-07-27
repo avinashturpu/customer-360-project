@@ -5,6 +5,7 @@ resources:
     customer_pipeline:
 
       name: Customer Pipeline
+      serverless: true
 
       catalog: main
 
