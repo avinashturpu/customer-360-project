@@ -1,9 +1,18 @@
 bundle:
   name: customer-360-project
 
+# Add this section so Databricks reads your job definitions!
+include:
+  - resources/*.yml
+  - resources/**/*.yml
+
 targets:
   dev:
     default: true
+    workspace:
+      host: https://dbc-efc3e70b-9792.cloud.databricks.com
 
   prod:
     mode: production
+    workspace:
+      host: https://dbc-efc3e70b-9792.cloud.databricks.com
