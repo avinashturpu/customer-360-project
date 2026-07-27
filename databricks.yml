@@ -1,0 +1,9 @@
+bundle:
+  name: customer-360-project
+
+targets:
+  dev:
+    default: true
+
+  prod:
+    mode: production
