@@ -10,5 +10,5 @@ resources:
 
         - task_key: bronze_task
 
-          notebook_task:
-            notebook_path: ../src/bronze.py
+          spark_python_task:
+            python_file: ../src/bronze.py
